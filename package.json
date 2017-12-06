@@ -1,0 +1,44 @@
+{
+  "name": "generator-mvp-kotlin",
+  "version": "1.0.0",
+  "description": "Generator Mvp Kotlin",
+  "main": "app/index.js",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "author": "",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "Android",
+    "Starter",
+    "Kotlin",
+    "yeoman-generator"
+  ],
+  "bundleDependencies": false,
+  "dependencies": {
+    "inquirer": "^4.0.1",
+    "ncp": "^2.0.0",
+    "yeoman-generator": "^1.1.1",
+    "yosay": "^2.0.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=1.2.10"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "license": "ISC"
+}
